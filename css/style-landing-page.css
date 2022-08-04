@@ -1,0 +1,57 @@
+.containerFlex{ 
+    height: 200px;
+
+}
+
+.container{
+    background-color: blueviolet;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerDiv{
+    background-color:#1f2937 ;
+    display: flex;
+    flex-direction: column;
+}
+
+#headerRow{
+    display: flex;
+    flex direction: row;
+    background-color: grey;
+
+}
+
+#headerLogo{
+    flex-grow: 5;
+    background-color: aqua;
+}
+
+
+.headerLinks{
+ flex-grow: 1;
+ justify-content: space-evenly;
+ text-align: center;
+}
+
+
+.introContainer{
+    flex-direction: row;
+    display : flex;
+}
+
+#introSignup{
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    flex-grow: 1;
+}
+#introPicture{
+    width: 140px;
+    height: 140px;
+    background-color: skyblue;
+    flex-grow: 1;
+
+
+}
