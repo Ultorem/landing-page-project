@@ -1,57 +1,112 @@
-.containerFlex{ 
+.containerFlex {
     height: 200px;
+    background-color: #e5e7eb;
 
 }
 
-.container{
-    background-color: blueviolet;
-    margin: 10px;
+.container {
+    margin: ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+#headerDiv {
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
 }
 
-#headerDiv{
-    background-color:#1f2937 ;
-    display: flex;
-    flex-direction: column;
-}
-
-#headerRow{
+#headerContainer {
     display: flex;
     flex direction: row;
-    background-color: grey;
+    background-color: ;
+    padding-left: 100px;
 
 }
 
-#headerLogo{
+#headerLogo {
     flex-grow: 5;
     background-color: aqua;
 }
 
 
-.headerLinks{
- flex-grow: 1;
- justify-content: space-evenly;
- text-align: center;
+.headerLinks {
+    flex-grow: 1;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 
-.introContainer{
+.introContainer {
     flex-direction: row;
-    display : flex;
+    display: flex;
+    padding-left: 100px;
+
 }
 
-#introSignup{
+#introSignup {
     width: 140px;
     height: 140px;
-    background-color: blue;
+    background-color: royalblue;
     flex-grow: 1;
 }
-#introPicture{
+
+#introPicture {
     width: 140px;
     height: 140px;
     background-color: skyblue;
     flex-grow: 1;
+}
 
+#btnSignup {
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    background-color: oldlace;
+    margin-top: 0px;
+}
 
+#infoContainer {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+#random-info {
+    text-align: center;
+}
+
+#boxContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    border: 2px solid black;
+}
+
+#quoteContainer {
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 50px;
+}
+
+#footerContainer{
+    padding-right: 50px;
+    padding-left: 100px;
+}
+
+#footerSignupContainer{
+    height: 100px;
+    margin-top: 50px;
+    background-color: aquamarine;
+    font-size: small;
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
